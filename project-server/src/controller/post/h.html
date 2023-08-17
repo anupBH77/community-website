@@ -1,0 +1,42 @@
+
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <style>
+    .custom-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-upload input[type="file"] {
+  display: none; 
+}
+
+.icon {
+  /* Add any additional styling for your SVG icon here */
+  /* margin-right: 5px; */
+  vertical-align: middle;
+}
+  </style>
+  <body>
+    <label for="image-upload" class="custom-upload">
+        <input type="file" id="image-upload" accept="image/*">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+          <!-- Insert your SVG icon here -->
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="12" y1="8" x2="12" y2="16"/>
+          <line x1="8" y1="12" x2="16" y2="12"/>
+        </svg>
+        Upload Image
+      </label>
+    
+  </body>
+  </html>

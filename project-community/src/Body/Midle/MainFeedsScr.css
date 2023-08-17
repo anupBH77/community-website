@@ -1,0 +1,24 @@
+.scroll_hide::-webkit-scrollbar {
+    height: 1rem;
+    width: 7px;
+  }
+  
+  /* Track */
+  .scroll_hide::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px rgb(50, 50, 50);  */
+    /* border: 1px solid rgba(0, 0, 0, 0.349); */
+    background-color:  white;
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  .scroll_hide::-webkit-scrollbar-thumb {
+    /* margin: 10px; */
+    background: rgba(5, 2, 38, 0.886); 
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  .scroll_hide::-webkit-scrollbar-thumb:hover {
+    background: #000000b6; 
+  }
