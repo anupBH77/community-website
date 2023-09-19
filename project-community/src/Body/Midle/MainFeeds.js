@@ -9,7 +9,9 @@ export default function MainFeed  (props){
     var data;
     useEffect(()=>{
         async function fetchdata(){
-        const postResp= await axios("http://localhost:8000/post/getposts")
+        const postResp= await axios("http://localhost:8000/posts"
+      
+        )
         loadPosts({isLoading:false, postsArray:postResp.data})
    
         }

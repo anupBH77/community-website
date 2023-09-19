@@ -52,7 +52,7 @@ export default function SignIn() {
                     type="submit"
                     class="w-full text-center py-3 rounded bg-black text-white hover:bg-gray-900 focus:outline-none my-1"
                 >SIGN IN</button>
-                <p>or</p>
+                <p className=" text-center">or</p>
                 <button 
                     onClick={()=>{nevigate('/signup')}}
                     type="submit"

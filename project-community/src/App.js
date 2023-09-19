@@ -12,8 +12,11 @@ import { useEffect } from 'react';
 
 function App() {
   const nevigate= useNavigate();
-  const {isSignedIn}= useSelector(selectSignInStats);
+  const {isSignedIn,userData}= useSelector(selectSignInStats);
+  // console.log(selectSignInStats)
   useEffect(()=>{
+    console.log("IS SINGED IN", { isSignedIn,userData})
+    
     if(isSignedIn){
       nevigate('/posts');
     }
