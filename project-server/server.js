@@ -12,7 +12,7 @@ async function startServer(){
     server.listen(port,()=>
     {
         
-        console.log( `runnig on http://localhost:${port}...`)
+        console.log( `runnig on HELLO http://localhost:${port}...`)
     })
     
 }
